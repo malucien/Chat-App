@@ -1,5 +1,5 @@
 import { ChatEngine } from 'react-chat-engine';
-
+import MessageForm from './components/MessageForm';
 import ChatFeed from './components/ChatFeed';
 // import LoginForm from './components/LoginForm';
 import './App.css';
@@ -15,7 +15,7 @@ const App = () => {
       projectID="3db55e20-1dc3-4bd1-93e9-c86c2cea1cda"
       userName='Lucius'
       userSecret='0123456789'
-      // renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
+      renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
       // onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
     />
   );
