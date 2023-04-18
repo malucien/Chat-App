@@ -205,7 +205,7 @@
 }
 
 /* FORM STYLES */
-,
+
 *::after,
 *::before {
   margin: 0;
@@ -266,7 +266,7 @@
   transition: all 0.4s;
   cursor: pointer;
   margin: 5px;
-  width: 90%;
+  
 }
 .button span {
   cursor: pointer;
@@ -288,9 +288,9 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}*/
+}
 
-body {
+.body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
