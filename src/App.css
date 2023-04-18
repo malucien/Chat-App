@@ -205,14 +205,14 @@
 }
 
 /* FORM STYLES */
-/*,
+,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62,5%;
-}*/
+}
 
 .container {
   height: 100vh;
@@ -224,7 +224,7 @@
   justify-content: center;
   align-items: center;
 }
-/*
+
 .input {
   color: #333;
   font-size: 1.2rem;
@@ -266,9 +266,9 @@
   transition: all 0.4s;
   cursor: pointer;
   margin: 5px;
-  /*width: 90%;
+  width: 90%;
 }
-/*.button span {
+.button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
